@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+* {
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(248, 239, 223);
+}
+.heading {
+	display: flex;
+	margin: 1vh 1vw;
+	padding: 1vh 1vw;
+}
+.heading > h1 {
+	margin: 0 2.5vw;
+	font-size: 11vh;
+	font-family: "Dancing Script", "cursive";
+	color: rgb(99, 70, 50);
+}
+.heading > svg {
+	margin-top: 24vh;
+	height: 15vh;
+	width: 29vw;
+	fill: rgb(99, 70, 50);
+}
+@media (min-width: 375px) {
+	.heading > svg {
+		margin-top: 23vh;
+		height: 19vh;
+		width: 25vw;
+	}
+}
+@media (min-width: 380px) {
+	.heading > svg {
+		margin-top: 13vh;
+		height: 13vh;
+		width: 19vw;
+	}
+}
+@media (min-width: 668px) {
+	.heading > svg {
+		margin-top: 3vh;
+		height: 9vh;
+		width: 6vw;
+	}
+}
+.about {
+	display: flex;
+}
+.about > img {
+	position: absolute;
+	width: 45vw;
+	height: 56vh;
+	margin: 1vh 11vw;
+	border-radius:50%;
+}
+.info {
+	position: absolute;
+	width: 33vw;
+	height: 56vh;
+	margin: 1vh 1vw 1vh 62vw;
+	padding: 1rem;
+}
+.info > address {
+	height: 30%;
+	font-size: 2.5vh;
+	padding: 1rem 3rem;
+	line-height: 1.75rem;
+}
+.info > .hours {
+	width: 100%;
+	margin-top: 3vh;
+	height: 63%;
+	padding: 2rem;
+	text-align: center;
+	font-size: 3vh;
+}
+.info > address svg {
+	fill: rgb(99, 70, 50);
+	margin: 0 1vw;
+}
+.menu {
+	display: block;
+	margin-top: 58vh;
+	padding: 1rem;
+}
+@media (max-width: 720px) {
+	.about > img {
+		width: 92vw;
+		margin: 2vh 4vw;
+	}
+	.info {
+		width: 78vw;
+		margin: 61vh 11vw 1vh 11vw;
+	}
+	.info > address {
+		padding: 1rem 6rem;
+	}
+	.menu {
+		margin-top: 118vh;
+	}
+}

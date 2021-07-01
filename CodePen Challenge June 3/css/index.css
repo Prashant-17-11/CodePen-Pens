@@ -97,19 +97,21 @@ body {
     border: 1px solid #ffffff;
     border-radius: 10px;
     box-shadow: 0px 0px 15px #ffffff;
+    text-align: justify;
 }
 .section-1 {
-    height: 170vh;
+    height: 270vh;
     display: flex;
 }
 .section-1 > figure {
     display: block;
 }
 .section-1 >figure > img {
-    width: 45vw;
-    height: 1011px;
+    width: 94vw;
+    height: 50%;
     border-radius: 10px;
     box-shadow: 0 0 15px rgb(255, 0, 0);
+    transform: rotate(-5deg);
 }
 .section-1 > figure > figcaption {
     width: 12vw;
@@ -123,7 +125,8 @@ body {
 }
 .section-1 > .section-1-text {
     display: block;
-    width: 45vw;
+    width: 47vw;
+    height: 50vh;
     margin-left: 2.5vw;
     font-size: 1.3rem;
 }
