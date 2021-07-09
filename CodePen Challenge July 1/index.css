@@ -1,77 +1,78 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    display: flex;
+	display: flex;
 }
 .back {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(230,230,230);
-    z-index: 0;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(245, 245, 245);
+	z-index: 0;
 }
-circle.dot , rect.dash {
-    fill:#aaa;
+circle.dot,
+rect.dash {
+	fill: #aaa;
 }
 #pattern {
-    transform: rotate(135deg);
+	transform: rotate(135deg);
 }
 
 .form-body {
-    display: block;
-    position: inherit;
-    width: 60vw;
-    height: 100vh;
-    margin-top:12.5vh;
-    margin: auto;
-    padding-top: 17.5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    background-color: rgba(255,255,255,0.5);
-    z-index: 100;
+	display: block;
+	position: inherit;
+	width: 60vw;
+	height: 100vh;
+	margin-top: 12.5vh;
+	margin: auto;
+	padding-top: 17.5vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	background-color: rgba(255, 255, 255, 0.5);
+	z-index: 100;
 }
 
 textarea {
-    width: 50vw;
-    height: 30vh;
-    border: none;
-    background-color: rgba(200,200,200,0.6);
-    text-align: left;
-    font-size: 2rem;
-    color: rgb(0,0,0);
-    overflow: auto;
-    border: 1px solid rgb(200,200,200);
-    border-radius: 5px;
-    padding: 1rem;
+	width: 50vw;
+	height: 30vh;
+	border: none;
+	background-color: rgba(200, 200, 200, 0.6);
+	text-align: left;
+	font-size: 2rem;
+	color: rgb(0, 0, 0);
+	overflow: auto;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 5px;
+	padding: 1rem;
 }
 .output {
-    margin-top: 5vh;
-    margin-bottom: 2vh;
-    width: 50vw;
-    height: 30vh;
-    background-color: rgba(200,200,200,0.6);
-    font-size: 2.75rem;
-    letter-spacing: 3px;
-    color: rgb(0,0,0);
-    z-index: 110;
-    padding: 1rem;
+	margin-top: 5vh;
+	margin-bottom: 2vh;
+	width: 50vw;
+	height: 30vh;
+	background-color: rgba(200, 200, 200, 0.6);
+	font-size: 2.75rem;
+	letter-spacing: 3px;
+	color: rgb(0, 0, 0);
+	z-index: 110;
+	padding: 1rem;
 }
 
-@media(max-width:900px) {
-    .form-body {
-        width: 90vw;
-        padding-top: 10vh;
-    }
-    textarea {
-        width: 80vw;
-        height: 37.5vh;
-    }
-    .output {
-        width: 80vw;
-        height: 37.5vh;
-    }
+@media (max-width: 900px) {
+	.form-body {
+		width: 90vw;
+		padding-top: 10vh;
+	}
+	textarea {
+		width: 80vw;
+		height: 37.5vh;
+	}
+	.output {
+		width: 80vw;
+		height: 37.5vh;
+	}
 }
